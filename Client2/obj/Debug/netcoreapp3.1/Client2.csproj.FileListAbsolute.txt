@@ -1,0 +1,13 @@
+C:\Users\Supipi\Desktop\Client2\bin\Debug\netcoreapp3.1\Client2.exe
+C:\Users\Supipi\Desktop\Client2\bin\Debug\netcoreapp3.1\Client2.deps.json
+C:\Users\Supipi\Desktop\Client2\bin\Debug\netcoreapp3.1\Client2.runtimeconfig.json
+C:\Users\Supipi\Desktop\Client2\bin\Debug\netcoreapp3.1\Client2.runtimeconfig.dev.json
+C:\Users\Supipi\Desktop\Client2\bin\Debug\netcoreapp3.1\Client2.dll
+C:\Users\Supipi\Desktop\Client2\bin\Debug\netcoreapp3.1\Client2.pdb
+C:\Users\Supipi\Desktop\Client2\obj\Debug\netcoreapp3.1\Client2.csprojAssemblyReference.cache
+C:\Users\Supipi\Desktop\Client2\obj\Debug\netcoreapp3.1\Client2.AssemblyInfoInputs.cache
+C:\Users\Supipi\Desktop\Client2\obj\Debug\netcoreapp3.1\Client2.AssemblyInfo.cs
+C:\Users\Supipi\Desktop\Client2\obj\Debug\netcoreapp3.1\Client2.csproj.CoreCompileInputs.cache
+C:\Users\Supipi\Desktop\Client2\obj\Debug\netcoreapp3.1\Client2.dll
+C:\Users\Supipi\Desktop\Client2\obj\Debug\netcoreapp3.1\Client2.pdb
+C:\Users\Supipi\Desktop\Client2\obj\Debug\netcoreapp3.1\Client2.genruntimeconfig.cache
