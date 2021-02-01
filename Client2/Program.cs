@@ -21,8 +21,13 @@ namespace Client
 
             int totalSuperNOdes = 20;
 
+            // to keep record from one clients
             var msgArray = new string[totalSuperNOdes];
+            
+            // to keep key parts which are relevant to the key number
             String[] array = new string[100]; 
+            
+            // variable count to count number from msg from one client
             int count = 0;
 
                 
@@ -37,14 +42,16 @@ namespace Client
 
                 if(count == 1)
                 {
-                      
+                    // i is the key number in integer  
                     int i = BitConverter.ToInt32(MsgFromServer, 0);
+                    
                     string v = msgArray[0];
+                    // keep key part into array
                     array[i] = v;
                 }
                 
 
-                // client send to server
+                // check whether the msg is send. If it is send then send tha key part back to the server
                 if (msgArray[count] == "send")
                 {
                     
@@ -57,6 +64,7 @@ namespace Client
                     byte[] bytes = Encoding.ASCII.GetBytes(array[j]);
                     ClientSocket.Send(bytes);
 
+                    //renew for new user
                     count = (-1);
 
                 }
