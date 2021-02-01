@@ -22,10 +22,12 @@ namespace Client
             
             while(true)
             {
+                // receive msg from server
                 byte[] MsgFromServer = new byte[1024];
                 int size = ClientSocket.Receive(MsgFromServer);
                 String msg = System.Text.Encoding.ASCII.GetString(MsgFromServer, 0, size);
                 
+                // check whether the msg is "send". If it is send, create the key and send it to the server
                 if(msg == "send")
                 {
                     int polynomsCount = 3;
